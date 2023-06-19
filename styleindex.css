@@ -57,7 +57,7 @@ aside * {
 aside h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
-  color:#633bbc;
+  color:#643bbccd;
 }
 
 aside img:nth-child(2) {
@@ -83,12 +83,12 @@ aside span {
 
 .navigation {
   display: inline-block;
-  color: #2b2b2b;
+  color: #1e1e1e;
   font-size: 16px;
   text-align: center;
   padding-inline: 10px;
-  background: linear-gradient(#d39e33, #f78c77, #5e33bc) padding-box,
-    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+background: linear-gradient(#e8b143, #f26c51a8, #5625c1) padding-box,
+    linear-gradient(260deg, #e8b143, #f26c51a8, #5625c1) border-box;
   background-size: cover;
   border-radius: 10px;
   text-decoration: none;

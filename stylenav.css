@@ -36,6 +36,45 @@ body {
     margin-left: 25%;
     margin-right: 25%;
 }
+body a {
+    margin: 10px;
+}
+
+hr {
+    border-color: #643bbc86;
+}
+
+.logout:hover img {
+    transform: scale(1.5);
+    transition: 0.3s ease-in-out;
+}
+
+.logout {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logout img {
+    width: 30px;
+    height: 30px;
+}
+
+.home:hover img {
+    transform: scale(1.5);
+    transition: 0.3s ease-in-out;
+}
+
+.home {
+    font-size: 50px;
+    padding: 10px;
+    text-decoration: none;
+    transition: ease-in-out 0.3s ease-in-out;
+}
+
+.home img {
+    width: 30px;
+    height: 30px;
+}
 
 nav {
     animation: entering 0.7s ease-in-out;
@@ -109,7 +148,7 @@ a{
     align-content: center;
     font-size: 2rem;
     gap: 20px;
-    border-top: 4px solid #2e2e33;
+    border-top: 4px solid #643bbc86;
     padding: 1%;
 }
 
