@@ -1,12 +1,8 @@
-<p align="center">
-  <img src=".github/preview.png" alt="demonstração do projeto width="100%" />
-</p>
-
 ## 💻 Projeto
 Esse é um projeto web responsivo de cápsula do tempo para exibir memórias em uma timeline.
 
 ## 🚀 Tecnologias
-Esse projeto foi desenvolvido durante o NLW da Rocketseat com as segunintes tecnologias:
+Esse projeto foi desenvolvido com as segunintes tecnologias:
 
 -HTML <br>
 -CSS <br>
