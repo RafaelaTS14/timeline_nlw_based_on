@@ -124,14 +124,9 @@ p {
   align-items: flex-start;
 }
 
-.social {
-  font-size: 1.2rem;
-  line-height: 28px;
-  color: #bebebf;
-}
-
 .social h1 {
   font-family: 'Dancing Script';
+    color: #643bbc9d;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -149,39 +144,28 @@ p {
   width: 50px;
   height: 50px;
   padding: 1%;
-  margin-left: 27.5%;
+  margin-left: 25%;
 }
 
-.linkedin:hover {
+
+.linkedin:hover img {
   transform: scale(1.1);
 }
 
-.linkedin {
-  background-image: url("./assets/linkedinicon.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-size: contained;
-  text-indent: -9999px;
-  width: 58%;
-  height: 67%;
+.linkedin img {
+  width: 50px;
+  height: 50px;
   display: inline-block;
   transition: transform 0.3s ease-in-out;
 }
 
-.github:hover {
+.github:hover img {
   transform: scale(1.1);
 }
 
-.github {
-  background-image: url("./assets/githubicon.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-size: cover;
-  text-indent: -9999px;
-  width: 27%;
-  height: 71%;
+.github img {
+  width: 50px;
+  height: 50px;
   display: inline-block;
   transition: transform 0.3s ease-in-out;
 }
@@ -191,46 +175,32 @@ p {
     font-size: 12px;
   }
 
-  body {
-    overflow: hidden;
-  }
+ body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 5%;
+   margin-right: 5%;
+ }
 
-nav img {
-  width: 5px;
-  border-radius: 50%;
-  
-  border: 4px solid transparent;
-  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
-  linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-b
-}
+ nav {
+   overflow-y: visible;
+ }
 
-.bout h1 {
-  font-family: 'Dancing Script', cursive;
-color: #eaeaea;
-}
+ .memory {
+   margin-bottom: 5px;
+ }
 
-  .social {
-    position: absolute;
-    align-items: center;
-    margin: none;
-  }
+ .memory img {
+   width: 100%;
+   height: 100%;
+ }
 
-  .social h2 {
-    text-align: center;
-  }
+ .social a {
+   margin-left: 22%;
+ }
 
-  .social a {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .linkedin {
-    width: 54%;
-    height: 70%;
-  }
-
-  .github {
-    width: 27%;
-    height: 70%;
-  }
-}
+ .linkedin img {
+   width: 50px;
+   height: 50px;
+ }}
